@@ -202,7 +202,7 @@ class PloneArticle(ArticleMixin, ATDocument):
             schemata = self.Schemata()
             fields = []
 
-            fields = schemata[fieldset].fields()
+            fields = schemata[fieldset.replace('#fieldset-', '')].fields()
 
             for field in fields:
 
