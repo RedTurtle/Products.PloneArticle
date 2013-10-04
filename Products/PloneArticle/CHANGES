@@ -10,6 +10,7 @@ PloneArticle Changes
   1.2.3.dev0 [keul]
 - Fix widget uploadCompleted js method when editing an article attachments from edit form [cekk]
 - Removed old pa_jquery [andrea]
+- Fix browse server contents behaviours in edit mode [andrea]
 
 4.2.0 (2012-02-08)
 ------------------
